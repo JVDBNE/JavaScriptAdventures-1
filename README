@@ -1,29 +1,35 @@
 
+# Adventures into JavaScript
 
-**GEOMETRY
+This Repo will continue to grow as a dive deeper into foundational concepts within JavaScript and build my understanding. 
+
+
+**GEOMETRY**
 JS Practice exercises via Treehouse Tech and first introduction to Maths concepts in JS.
 Volume and Area of a range of shapes. 
 
 
-**ARRAYS
+**ARRAYS**
 basic arrays, loops and Creating/shuffling a Deck of cards practice via Treehouse Tech. 
 
 
-**ARROW FUNCTIONS 
+**ARROW FUNCTIONS**
 introduction to converting standard functions, debugging and refactoring. FUN!
 
 
-**LOOPS
+**LOOPS**
 FOR EACH - Array iteration methods. 
 
 IFELSE - it was great to introduce the pipe operator which I had only previously seen in Elixir and once again understand how utilising it cleans code up really well! 
 
 
-** OBJECTS
+**OBJECTS**
 
 Basic Objects
 Object Literals 
 Template Literals. 
 
 
-I really enjoyed these exercises and by the end of the challenges felt that arrow functions and how I can refactor my code started to really click! At a beginner level it is finding a balance between refactoring and condensing and also ensuring that I understand where I have pulled a variable from (especially if it has been eliminated in replace of an arrow function etc)
+I really enjoyed these exercises and by the end of the challenges felt that arrow functions and how I can refactor my code started to really click! 
+At a beginner level it is finding a balance between refactoring and condensing and also ensuring that I understand where I have pulled a variable from 
+(especially if it has been eliminated in replace of an arrow function etc)
