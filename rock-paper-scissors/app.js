@@ -26,26 +26,26 @@ function win(usersChoice, computerChoice) {
     userScore ++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore
-    result_p.innerHTML = `Huzzah! ${convertToWord(usersChoice)} beats ${convertToWord(computerChoice)} You Win!`
+    result_p.innerHTML = `Huzzah!</br> ${convertToWord(usersChoice)} beats ${convertToWord(computerChoice)} You Win!`
     document.getElementById(usersChoice).classList.add('green-glow');
-    setTimeout(function() { document.getElementById(usersChoice).classList.remove('green-glow')}, 500);
+    setTimeout(function() { document.getElementById(usersChoice).classList.remove('green-glow')}, 600);
 }
 
 function lose(usersChoice, computerChoice) {
     computerScore ++;
     computerScore_span.innerHTML = computerScore
     userScore_span.innerHTML = userScore
-    result_p.innerHTML = `Uh Oh!!! ${convertToWord(computerChoice)} beats ${convertToWord(usersChoice)} You Lose!`
+    result_p.innerHTML = `Uh Oh!!! </br> ${convertToWord(computerChoice)} beats ${convertToWord(usersChoice)} You Lose!`
     document.getElementById(usersChoice).classList.add('red-glow');
-    setTimeout(function() { document.getElementById(usersChoice).classList.remove('red-glow')}, 500);
+    setTimeout(function() { document.getElementById(usersChoice).classList.remove('red-glow')}, 600);
 }
 
 function draw(usersChoice, computerChoice) {
     computerScore_span.innerHTML = computerScore;
     userScore_span.innerHTML = userScore;
-    result_p.innerHTML = `${convertToWord(computerChoice)} = ${convertToWord(usersChoice)} It's A Draw!`
+    result_p.innerHTML = `${convertToWord(computerChoice)} = ${convertToWord(usersChoice)} </br>It's A Draw!`
     document.getElementById(usersChoice).classList.add('grey-glow');
-    setTimeout(function() { document.getElementById(usersChoice).classList.remove('grey-glow')}, 500);
+    setTimeout(function() { document.getElementById(usersChoice).classList.remove('grey-glow')}, 600);
 }
 
 function game(userChoice){
